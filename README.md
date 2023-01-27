@@ -12,3 +12,6 @@ It takes one numeric arguemnt (question number)
 
 For example: 
 cheat(17) will give you an output: Answer: matrix(1:9, nrow = 3, byrow = TRUE) * c(1:3)
+
+# Art
+Creates art by plotting data from data specified (using ggplot) 
