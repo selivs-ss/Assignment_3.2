@@ -1,6 +1,6 @@
 # Assignment_3.2_Remind
 Function that reminds you to buy bread
-It can take only one numeric argument,
+It does not give you any arguemnts
 
 For example: 
-remind_me(17) will give you an output: Answer: matrix(1:9, nrow = 3, byrow = TRUE) * c(1:3)
+remind_me() will give you an output: "Don't forget to buy bread"
