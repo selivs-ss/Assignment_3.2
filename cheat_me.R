@@ -10,10 +10,9 @@ cheat <- function(ex_number){
   }
   
   if(ex_number == 1){
-    answe <- cat("Answer: exam_grades <- rnorm(60, mean = 7, sd = 2.5)\nhist(exam_grades)")
+    answer <- cat("Answer: exam_grades <- rnorm(60, mean = 7, sd = 2.5)","\n","hist(exam_grades)")
   } else if(ex_number == 17) {
-    answer <- ("Answer: the keyboard shortcut that automatically formats
-                your highlighted R code is Ctrl+Shift+A")
+    answer <- cat("Answer: the keyboard shortcut that automatically formats", "\n","your highlighted R code is Ctrl+Shift+A")
   } else if(ex_number == 16){
     answer <- ("Answer: matrix(1:9, nrow = 3, byrow = TRUE) * c(1:3)")
   }
